@@ -1,5 +1,7 @@
 # Claude of Duty
 
+> Personal fork of [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty) — all credit for the original build goes upstream.
+
 Get updates [here](https://shumer.dev/newsletter).
 
 A first-person shooter built in the browser with Three.js r180 and WebGL2. Roughly
@@ -13,6 +15,8 @@ files. The only runtime dependency is `three`.
 npm install
 npm run dev          # http://127.0.0.1:5173
 ```
+
+Requires Node 20.19+ (Vite 7).
 
 Click the canvas to lock the cursor. WASD move, mouse aim, LMB fire, RMB ADS,
 R reload, Shift sprint, Ctrl crouch, Space jump, Q/E lean, Esc release.
